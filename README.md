@@ -55,3 +55,13 @@ Example output metrics:
 3. Augmentation techniques (rotation, zoom, flip, etc.) are applied.
 4. The CNN learns from the training data and is evaluated using validation data.
 5. Final model can predict new unseen cat/dog images.
+
+## 📌 Future Improvements
+Currently, the model has ~70% accuracy which is a good starting point to improve upon in future updates. The model also has a 68% training accuracy which shows that the model generalizes very well since the training accuracy and validation accuracy are relatively equal. This leaves room some room for improvement by:
+mplement early stopping and learning rate scheduling
+
+1. Experimenting with pretrained models
+2. Increasing the epochs or decreasing the batch size (may introduce overfitting)
+3. Experimenting with learning rate scheduling and early stopping
+4. Increasing the model complexity by adding more layers or increasing the number of filters in each layer
+5. Use a more diverse training dataset
