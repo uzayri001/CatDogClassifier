@@ -42,7 +42,7 @@ The model reaches strong validation accuracy and generalizes well on unseen data
 
 Example output metrics:
 
-- **Training Accuracy:** ~95%
+- **Training Accuracy:** ~68%
 - **Validation Accuracy:** ~72%
 - **Testing Accuracy:** ~70%
 
